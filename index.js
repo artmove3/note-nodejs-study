@@ -11,7 +11,7 @@ yargs(hideBin(process.argv))
       title: {
         type: "string",
         describe: "note title",
-        demandOption: false,
+        demandOption: true,
       },
     },
     ({ title }) => {
